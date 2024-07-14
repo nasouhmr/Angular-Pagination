@@ -1,0 +1,90 @@
+/* pagination {  */
+
+  .rpp-label {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #111;
+  }
+  
+  .ng-select.ng-select-single .ng-select-container {
+    height: 36px;
+    width: 72px;
+  }
+  
+  .rpp-select {
+    margin: 0 20px;
+  }
+  
+  ::ng-deep .ng-select.ng-select-single .ng-select-container {
+    height: 36px;
+    width: 75px;
+    border: 0;
+    background: #000;
+  }
+  
+  .pages-container {
+    padding-top: 7px;
+    margin-left: 15px;
+    display: flex;
+  }
+  
+  .page {
+    color: #000;
+    background-color: #fff;
+    font-size: 11px;
+    display: flex;
+    text-align: center;
+    padding: 2px;
+    width: 30px;
+    cursor: pointer;
+    height: 28px;
+  }
+  
+  .page span {
+    margin: auto;
+  }
+  
+  .next-page,
+  .prev-page,
+  .last-page {
+    background: #007278;
+    color: #fff;
+  }
+  
+  .next-page span,
+  .prev-page span {
+    font-size: 18px;
+  }
+  
+  .page:hover {
+    background-color: #007278;
+    border: 1px solid #007278;
+    color: #fff;
+  }
+  
+  .page-sep {
+    display: inline-block;
+    margin: 0px 4px;
+  }
+  
+  .active-page {
+    background-color: #007278;
+    border: 1px solid #007278;
+    color: #fff;
+  }
+  
+  .results-count {
+    line-height: 3;
+  }
+  
+  /* } pagination  */
+  
+  @media screen and (max-width: 768px) {
+    .d-flex {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      padding: 5% 0;
+    }
+  }
+  
